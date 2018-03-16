@@ -1,0 +1,29 @@
+{
+  "name": "wdio-helper",
+  "version": "1.0.0",
+  "description": "This library is a Helper for WebDriverIO Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassioafs/wdio-helper.git"
+  },
+  "keywords": [
+    "Wdio",
+    "WebDriverIO",
+    "Helper",
+    "Page",
+    "PageObject"
+  ],
+  "author": "Cássio Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassioafs/wdio-helper/issues"
+  },
+  "homepage": "https://github.com/cassioafs/wdio-helper#readme",
+  "dependencies": {
+    "webdriverio": "^4.9.10"
+  }
+}
