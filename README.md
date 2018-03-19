@@ -14,7 +14,7 @@
 First, import the module into your PageObject and extends Page:
 
 ```JavaScript
-const Page = require('./page');
+const Page = require('wdio-helper');
 
 class MyNewPage extends Page{
   ...
