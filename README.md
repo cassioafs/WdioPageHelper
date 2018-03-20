@@ -34,8 +34,14 @@ super.setValue(element, value, timeout)
 ```
 This method receives an element, a value to set and a timeout (optional, default is 5000)
 
+* getValue
+```JavaScript
+super.getValue(element, timeout)
+```
+This method return a value of a element and receives an element and a timeout (optional, default is 5000)
+
 * isElementVisible
 ```JavaScript
-super.isElementVisible(element, value, timeout)
+super.isElementVisible(element, reverse,  timeout)
 ```
-This method receives an element and a timeout (optional, default is 5000)
+This method receives an element, boolean parameter reverse (if true it waits for the opposite, it's optional)  and a timeout (optional, default is 5000)
