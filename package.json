@@ -4,7 +4,8 @@
   "description": "This library is a Helper for WebDriverIO Tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static_fix": "eslint *.js --fix"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,13 @@
   "homepage": "https://github.com/cassioafs/wdio-helper#readme",
   "dependencies": {
     "webdriverio": "^4.9.10"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
